@@ -1,0 +1,22 @@
+{
+  "priors": {
+    "SAFE": 0.22,
+    "RUG": 0.78
+  },
+  "likelihoods": {
+    "SAFE": {
+      "is_locked": 0.9910714285714286,
+      "has_mint_function": 0.14285714285714285,
+      "creator_funded_by_tornado": 0.14285714285714285
+    },
+    "RUG": {
+      "is_locked": 0.28316326530612246,
+      "has_mint_function": 0.6275510204081632,
+      "creator_funded_by_tornado": 0.6862244897959183
+    }
+  },
+  "classes": [
+    "SAFE",
+    "RUG"
+  ]
+}
